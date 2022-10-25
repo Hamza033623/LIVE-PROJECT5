@@ -4,7 +4,7 @@ jobs:
   build:
     working_directory: ~/circleci-node
     docker:
-      - image: "circleci/node:6.10.1" build:
+      - image: "circleci/node:6.10.1" 
   test:    
      working_directory: ~/circleci-node
      docker:
