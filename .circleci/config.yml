@@ -4,8 +4,7 @@ jobs:
   build:
     docker:
       - image: 'circleci/node:6.10.1' 
-  test:    
-     working_directory: ~/circleci-node
+  test:
      docker:
       - image: 'circleci/node:6.10.1'
    steps:
