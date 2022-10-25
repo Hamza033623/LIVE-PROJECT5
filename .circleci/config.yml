@@ -2,13 +2,12 @@ version: 2.1
 
 jobs:
   build:
-    working_directory: ~/circleci-node
     docker:
-      - image: "circleci/node:6.10.1" 
+      - image: 'circleci/node:6.10.1' 
   test:    
      working_directory: ~/circleci-node
      docker:
-      - image: "circleci/node:6.10.1"
+      - image: 'circleci/node:6.10.1'
    steps:
       - checkout
       - run:
