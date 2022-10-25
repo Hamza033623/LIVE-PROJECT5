@@ -9,7 +9,7 @@ jobs:
      working_directory: ~/circleci-node
      docker:
       - image: "circleci/node:6.10.1"
-    steps:
+   steps:
       - checkout
       - run:
           name: submodules
